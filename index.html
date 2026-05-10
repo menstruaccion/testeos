@@ -1,95 +1,846 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MenstruAcción | Dignidad para cada ciclo</title>
-  <meta name="description" content="MenstruAcción construye equidad, acceso y oportunidad mediante educación menstrual, sexual y financiera en Perú.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-</head>
-<body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   MenstruAcci&oacute;n | Dignidad para cada ciclo
+  </title>
+  <meta content="MenstruAcci&oacute;n construye equidad, acceso y oportunidad mediante educaci&oacute;n menstrual, sexual y financiera en Per&uacute;." name="description"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
   <header class="site-header">
-    <a class="brand" href="#inicio" data-tab-link="inicio" aria-label="Ir al inicio">
-      <img class="brand-logo" src="assets/logo.png" alt="MenstruAcción">
-    </a>
-    <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <nav class="site-nav" id="siteNav" aria-label="Navegación principal">
-      <button class="nav-tab active" data-tab="inicio" data-i18n="nav_home">Inicio</button>
-      <button class="nav-tab" data-tab="brecha" data-i18n="nav_gap">La Brecha</button>
-      <button class="nav-tab" data-tab="propuesta" data-i18n="nav_proposal">Nuestra Propuesta</button>
-      <button class="nav-tab" data-tab="modelo" data-i18n="nav_model">Modelo en Acción</button>
-      <button class="nav-tab" data-tab="impacto-voces" data-i18n="nav_impact">Impacto y Voces</button>
-      <button class="nav-tab" data-tab="quienes-somos" data-i18n="nav_about">Quiénes Somos</button>
-      <button class="nav-tab" data-tab="recursos" data-i18n="nav_resources">Centro de Recursos</button>
-      <button class="nav-tab" data-tab="aliados" data-i18n="nav_allies">Aliados</button>
-      <button class="nav-tab nav-cta" data-tab="sumate" data-i18n="nav_support">Súmate</button>
-    </nav>
-    <div class="language-toggle" aria-label="Cambiar idioma"><button class="lang-button active" data-lang="es">ES</button><button class="lang-button" data-lang="en">EN</button></div>
+   <a aria-label="Ir al inicio" class="brand" data-tab-link="inicio" href="#inicio">
+    <img alt="MenstruAcci&oacute;n" class="brand-logo" src="assets/logo.png"/>
+   </a>
+   <button aria-expanded="false" aria-label="Abrir men&uacute;" class="mobile-menu-button" id="mobileMenuButton">
+    ☰
+   </button>
+   <nav aria-label="Navegaci&oacute;n principal" class="site-nav" id="siteNav">
+    <button class="nav-tab active" data-i18n="nav_home" data-tab="inicio">
+     Inicio
+    </button>
+    <button class="nav-tab" data-i18n="nav_gap" data-tab="brecha">
+     La Brecha
+    </button>
+    <button class="nav-tab" data-i18n="nav_proposal" data-tab="propuesta">
+     Nuestra Propuesta
+    </button>
+    <button class="nav-tab" data-i18n="nav_model" data-tab="modelo">
+     Modelo en Acci&oacute;n
+    </button>
+    <button class="nav-tab" data-i18n="nav_impact" data-tab="impacto-voces">
+     Impacto y Voces
+    </button>
+    <button class="nav-tab" data-i18n="nav_about" data-tab="quienes-somos">
+     Qui&eacute;nes Somos
+    </button>
+    <button class="nav-tab" data-i18n="nav_resources" data-tab="recursos">
+     Centro de Recursos
+    </button>
+    <button class="nav-tab" data-i18n="nav_allies" data-tab="aliados">
+     Aliados
+    </button>
+    <button class="nav-tab nav-cta" data-i18n="nav_support" data-tab="sumate">
+     S&uacute;mate
+    </button>
+   </nav>
+   <div aria-label="Cambiar idioma" class="language-toggle">
+    <button class="lang-button active" data-lang="es">
+     ES
+    </button>
+    <button class="lang-button" data-lang="en">
+     EN
+    </button>
+   </div>
   </header>
-
   <main>
-    <section class="page-section active hero-section" id="inicio">
-      <div class="floating-shape shape-one"></div><div class="floating-shape shape-two"></div>
-      <div class="hero-grid">
-        <div class="hero-copy reveal reveal-left">
-          <p class="eyebrow" data-i18n="hero_eyebrow">Educación. Equidad. Oportunidad.</p>
-          <h1 data-i18n="hero_title">Dignidad para cada ciclo.</h1>
-          <p class="hero-lead" data-i18n="hero_lead">Construimos equidad, acceso y oportunidad mediante educación integral, productos sostenibles y acompañamiento comunitario.</p>
-          <div class="hero-actions"><button class="primary-button" data-tab-link="sumate" data-i18n="hero_primary">Apoyar el proyecto</button><button class="secondary-button" data-tab-link="brecha" data-i18n="hero_secondary">Ver la brecha</button></div>
-        </div>
-        <div class="hero-card reveal reveal-right">
-          <p class="card-kicker" data-i18n="hero_card_kicker">MenstruAcción 2026</p>
-          <h2>
-            <span data-i18n="hero_card_line_1"></span>
-            <span class="title-break" data-i18n="hero_card_line_2"></span>
-            <span class="title-break" data-i18n="hero_card_line_3"></span>
-          </h2>          
-          <p data-i18n="hero_card_text">Lima, Cajamarca y Amazonas serán parte de un modelo que combina educación menstrual, sexual y financiera con productos reutilizables y seguimiento.</p>
-          <div class="region-pills"><span data-i18n="region_lima">Costa</span><span data-i18n="region_cajamarca">Andes</span><span data-i18n="region_amazonas">Amazonía</span></div>
-        </div>
+   <section class="page-section active hero-section" id="inicio">
+    <div class="floating-shape shape-one">
+    </div>
+    <div class="floating-shape shape-two">
+    </div>
+    <div class="hero-grid">
+     <div class="hero-copy reveal reveal-left">
+      <p class="eyebrow" data-i18n="hero_eyebrow">
+       Educaci&oacute;n. Equidad. Oportunidad.
+      </p>
+      <h1 data-i18n="hero_title">
+       Dignidad para cada ciclo.
+      </h1>
+      <p class="hero-lead" data-i18n="hero_lead">
+       Construimos equidad, acceso y oportunidad mediante educaci&oacute;n integral, productos sostenibles y acompa&ntilde;amiento comunitario.
+      </p>
+      <div class="hero-actions">
+       <button class="primary-button" data-i18n="hero_primary" data-tab-link="sumate">
+        Apoyar el proyecto
+       </button>
+       <button class="secondary-button" data-i18n="hero_secondary" data-tab-link="brecha">
+        Ver la brecha
+       </button>
       </div>
-    </section>
-
-    <section class="page-section" id="brecha">
-      <div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="gap_eyebrow">La brecha de equidad</p><h2 data-i18n="gap_title">Cuando falta información, faltan oportunidades.</h2><p data-i18n="gap_intro">La pobreza menstrual no es solo falta de productos. También es falta de información, privacidad, salud, dinero, agua, apoyo y espacios seguros.</p></div>
-      <div class="stats-grid">
-        <a class="stat-card source-card reveal reveal-left" href="https://www.tandfonline.com/doi/pdf/10.1080/2331186X.2022.2132060" target="_blank" rel="noopener"><div class="stat-number" data-i18n="gap_stat_one_number">1 de cada 3</div><p class="stat-label" data-i18n="gap_stat_one">adolescentes falta al colegio durante su menstruación.</p><span class="source-link" data-i18n="source_read">Ver fuente ↗</span></a>
-        <a class="stat-card source-card reveal reveal-up" href="https://www.tandfonline.com/doi/pdf/10.1080/2331186X.2022.2132060" target="_blank" rel="noopener"><div class="stat-number" data-i18n="gap_stat_two_number">95%</div><p class="stat-label" data-i18n="gap_stat_two">reporta entornos escolares hostiles durante su periodo.</p><span class="source-link" data-i18n="source_read">Ver fuente ↗</span></a>
-        <a class="stat-card source-card reveal reveal-right" href="#" target="_blank" rel="noopener"><div class="stat-number" data-i18n="gap_stat_three_number">54%</div><p class="stat-label" data-i18n="gap_stat_three">no puede pagar productos básicos menstruales.</p><span class="source-link placeholder-link" data-i18n="source_placeholder">[PON EL LINK AQUÍ]</span></a>
+     </div>
+     <div class="hero-card reveal reveal-right">
+      <p class="card-kicker" data-i18n="hero_card_kicker">
+       MenstruAcci&oacute;n 2026
+      </p>
+      <h2>
+       <span data-i18n="hero_card_line_1">
+       </span>
+       <span class="title-break" data-i18n="hero_card_line_2">
+       </span>
+       <span class="title-break" data-i18n="hero_card_line_3">
+       </span>
+      </h2>
+      <p data-i18n="hero_card_text">
+       Lima, Cajamarca y Amazonas ser&aacute;n parte de un modelo que combina educaci&oacute;n menstrual, sexual y financiera con productos reutilizables y seguimiento.
+      </p>
+      <div class="region-pills">
+       <span data-i18n="region_lima">
+        Costa
+       </span>
+       <span data-i18n="region_cajamarca">
+        Andes
+       </span>
+       <span data-i18n="region_amazonas">
+        Amazon&iacute;a
+       </span>
       </div>
-      <div class="problem-map reveal reveal-up"><div class="map-center" data-i18n="gap_map_center">Intervenciones incompletas</div><article><h3 data-i18n="gap_node_products">Solo productos</h3><p data-i18n="gap_node_products_text">Sin educación ni seguimiento, el acceso puede quedarse en una entrega aislada.</p></article><article><h3 data-i18n="gap_node_education">Solo educación</h3><p data-i18n="gap_node_education_text">La información no alcanza si una niña no tiene productos, privacidad o apoyo para aplicar lo aprendido.</p></article><article><h3 data-i18n="gap_node_health">Solo salud</h3><p data-i18n="gap_node_health_text">Hablar de síntomas sin mirar escuela, economía, agua y estigma deja fuera la realidad completa.</p></article></div>
-      <div class="angle-diagram reveal reveal-up">
-        <div class="angle-center" data-i18n="angle_center">La pobreza menstrual es un sistema, no un síntoma aislado.</div>
-        <article class="angle-panel"><p class="panel-kicker" data-i18n="angle_health_kicker">Lo invisible</p><h3 data-i18n="angle_health_title">La salud y el cuerpo</h3><ul><li data-i18n="angle_health_1">Metales como plomo, arsénico y cadmio detectados en tampones.</li><li data-i18n="angle_health_2">Químicos medibles como ftalatos, fenoles y parabenos en productos menstruales.</li><li data-i18n="angle_health_3">Fragancias, irritación, sequedad, microbioma y seguridad todavía requieren más investigación.</li></ul><div class="source-row"><a href="https://www.sciencedirect.com/science/article/pii/S0160412024004355" target="_blank" rel="noopener" data-i18n="source_metals">Metales ↗</a><a href="https://pubmed.ncbi.nlm.nih.gov/37743685/" target="_blank" rel="noopener" data-i18n="source_chemicals">Químicos ↗</a><a href="https://www.fda.gov/media/184682/download" target="_blank" rel="noopener">FDA ↗</a></div></article>
-        <article class="angle-panel"><p class="panel-kicker" data-i18n="angle_environment_kicker">El rastro</p><h3 data-i18n="angle_environment_title">Agua y medio ambiente</h3><ul><li data-i18n="angle_environment_1">Residuos de productos desechables que terminan en rellenos sanitarios o sistemas de alcantarillado.</li><li data-i18n="angle_environment_2">Impactos de ciclo de vida asociados a materias primas, plásticos, producción y disposición final.</li><li data-i18n="angle_environment_3">Microplásticos y residuos no reciclables como parte del problema de contaminación.</li></ul><div class="source-row"><a href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/07/UNEP-LCI-Single-use-vs-reusable-Menstrual-Products-Meta-study.pdf" target="_blank" rel="noopener">UNEP ↗</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11865846/" target="_blank" rel="noopener" data-i18n="source_environment">Impacto ambiental ↗</a></div></article>
-        <article class="angle-panel"><p class="panel-kicker" data-i18n="angle_system_kicker">El sistema</p><h3 data-i18n="angle_system_title">Lo social y económico</h3><ul><li data-i18n="angle_system_1">Ausentismo escolar, vergüenza y falta de baños dignos.</li><li data-i18n="angle_system_2">Normalización del dolor menstrual y diagnósticos tardíos.</li><li data-i18n="angle_system_3">Falta de transparencia de ingredientes y necesidad de mejores regulaciones.</li></ul><div class="source-row"><a href="https://www.tandfonline.com/doi/full/10.1080/2331186X.2022.2132060" target="_blank" rel="noopener" data-i18n="source_school">Escuela ↗</a><a href="https://weavingvoices.org/report-whats-in-your-period-product/" target="_blank" rel="noopener" data-i18n="source_transparency">Transparencia ↗</a></div></article>
-        <article class="angle-panel"><p class="panel-kicker" data-i18n="angle_daily_kicker">La logística</p><h3 data-i18n="angle_daily_title">El día a día</h3><ul><li data-i18n="angle_daily_1">Baños sin agua, jabón, privacidad o basureros seguros.</li><li data-i18n="angle_daily_2">Miedo al ruido del envoltorio, a mancharse o a pedir ayuda.</li><li data-i18n="angle_daily_3">Dolores incapacitantes sin permisos, cuidado ni atención adecuada.</li></ul><div class="source-row"><a href="https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/improving-access-menstrual-health-girls-and-adolescents-peru" target="_blank" rel="noopener" data-i18n="source_policy">Perú / salud menstrual ↗</a><a class="placeholder-link" href="#" target="_blank" rel="noopener" data-i18n="source_placeholder">[PON EL LINK AQUÍ]</a></div></article>
+     </div>
+    </div>
+   </section>
+   <section class="page-section" id="brecha">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="gap_eyebrow">
+      La brecha de equidad
+     </p>
+     <h2 data-i18n="gap_title">
+      Cuando falta informaci&oacute;n, faltan oportunidades.
+     </h2>
+     <p data-i18n="gap_intro">
+      La pobreza menstrual no es solo falta de productos. Tambi&eacute;n es falta de informaci&oacute;n, privacidad, salud, dinero, agua, apoyo y espacios seguros.
+     </p>
+    </div>
+    <div class="stats-grid">
+     <a class="stat-card source-card reveal reveal-left" href="https://www.tandfonline.com/doi/pdf/10.1080/2331186X.2022.2132060" rel="noopener" target="_blank">
+      <div class="stat-number" data-i18n="gap_stat_one_number">
+       1 de cada 3
       </div>
-    </section>
+      <p class="stat-label" data-i18n="gap_stat_one">
+       adolescentes falta al colegio durante su menstruaci&oacute;n.
+      </p>
+      <span class="source-link" data-i18n="source_read">
+       Ver fuente &nearrow;
+      </span>
+     </a>
+     <a class="stat-card source-card reveal reveal-up" href="https://www.tandfonline.com/doi/pdf/10.1080/2331186X.2022.2132060" rel="noopener" target="_blank">
+      <div class="stat-number" data-i18n="gap_stat_two_number">
+       95%
+      </div>
+      <p class="stat-label" data-i18n="gap_stat_two">
+       reporta entornos escolares hostiles durante su periodo.
+      </p>
+      <span class="source-link" data-i18n="source_read">
+       Ver fuente &nearrow;
+      </span>
+     </a>
+     <a class="stat-card source-card reveal reveal-right" href="#" rel="noopener" target="_blank">
+      <div class="stat-number" data-i18n="gap_stat_three_number">
+       54%
+      </div>
+      <p class="stat-label" data-i18n="gap_stat_three">
+       no puede pagar productos b&aacute;sicos menstruales.
+      </p>
+      <span class="source-link placeholder-link" data-i18n="source_placeholder">
+       [PON EL LINK AQU&Iacute;]
+      </span>
+     </a>
+    </div>
+    <div class="problem-map reveal reveal-up">
+     <div class="map-center" data-i18n="gap_map_center">
+      Intervenciones incompletas
+     </div>
+     <article>
+      <h3 data-i18n="gap_node_products">
+       Solo productos
+      </h3>
+      <p data-i18n="gap_node_products_text">
+       Sin educaci&oacute;n ni seguimiento, el acceso puede quedarse en una entrega aislada.
+      </p>
+     </article>
+     <article>
+      <h3 data-i18n="gap_node_education">
+       Solo educaci&oacute;n
+      </h3>
+      <p data-i18n="gap_node_education_text">
+       La informaci&oacute;n no alcanza si una ni&ntilde;a no tiene productos, privacidad o apoyo para aplicar lo aprendido.
+      </p>
+     </article>
+     <article>
+      <h3 data-i18n="gap_node_health">
+       Solo salud
+      </h3>
+      <p data-i18n="gap_node_health_text">
+       Hablar de s&iacute;ntomas sin mirar escuela, econom&iacute;a, agua y estigma deja fuera la realidad completa.
+      </p>
+     </article>
+    </div>
+    <div class="angle-diagram reveal reveal-up">
+     <div class="angle-center" data-i18n="angle_center">
+      La pobreza menstrual es un sistema, no un s&iacute;ntoma aislado.
+     </div>
+     <article class="angle-panel">
+      <p class="panel-kicker" data-i18n="angle_health_kicker">
+       Lo invisible
+      </p>
+      <h3 data-i18n="angle_health_title">
+       La salud y el cuerpo
+      </h3>
+      <ul>
+       <li data-i18n="angle_health_1">
+        Metales como plomo, ars&eacute;nico y cadmio detectados en tampones.
+       </li>
+       <li data-i18n="angle_health_2">
+        Qu&iacute;micos medibles como ftalatos, fenoles y parabenos en productos menstruales.
+       </li>
+       <li data-i18n="angle_health_3">
+        Fragancias, irritaci&oacute;n, sequedad, microbioma y seguridad todav&iacute;a requieren m&aacute;s investigaci&oacute;n.
+       </li>
+      </ul>
+      <div class="source-row">
+       <a data-i18n="source_metals" href="https://www.sciencedirect.com/science/article/pii/S0160412024004355" rel="noopener" target="_blank">
+        Metales &nearrow;
+       </a>
+       <a data-i18n="source_chemicals" href="https://pubmed.ncbi.nlm.nih.gov/37743685/" rel="noopener" target="_blank">
+        Qu&iacute;micos &nearrow;
+       </a>
+       <a href="https://www.fda.gov/media/184682/download" rel="noopener" target="_blank">
+        FDA &nearrow;
+       </a>
+      </div>
+     </article>
+     <article class="angle-panel">
+      <p class="panel-kicker" data-i18n="angle_environment_kicker">
+       El rastro
+      </p>
+      <h3 data-i18n="angle_environment_title">
+       Agua y medio ambiente
+      </h3>
+      <ul>
+       <li data-i18n="angle_environment_1">
+        Residuos de productos desechables que terminan en rellenos sanitarios o sistemas de alcantarillado.
+       </li>
+       <li data-i18n="angle_environment_2">
+        Impactos de ciclo de vida asociados a materias primas, pl&aacute;sticos, producci&oacute;n y disposici&oacute;n final.
+       </li>
+       <li data-i18n="angle_environment_3">
+        Micropl&aacute;sticos y residuos no reciclables como parte del problema de contaminaci&oacute;n.
+       </li>
+      </ul>
+      <div class="source-row">
+       <a href="https://www.lifecycleinitiative.org/wp-content/uploads/2021/07/UNEP-LCI-Single-use-vs-reusable-Menstrual-Products-Meta-study.pdf" rel="noopener" target="_blank">
+        UNEP &nearrow;
+       </a>
+       <a data-i18n="source_environment" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11865846/" rel="noopener" target="_blank">
+        Impacto ambiental &nearrow;
+       </a>
+      </div>
+     </article>
+     <article class="angle-panel">
+      <p class="panel-kicker" data-i18n="angle_system_kicker">
+       El sistema
+      </p>
+      <h3 data-i18n="angle_system_title">
+       Lo social y econ&oacute;mico
+      </h3>
+      <ul>
+       <li data-i18n="angle_system_1">
+        Ausentismo escolar, verg&uuml;enza y falta de ba&ntilde;os dignos.
+       </li>
+       <li data-i18n="angle_system_2">
+        Normalizaci&oacute;n del dolor menstrual y diagn&oacute;sticos tard&iacute;os.
+       </li>
+       <li data-i18n="angle_system_3">
+        Falta de transparencia de ingredientes y necesidad de mejores regulaciones.
+       </li>
+      </ul>
+      <div class="source-row">
+       <a data-i18n="source_school" href="https://www.tandfonline.com/doi/full/10.1080/2331186X.2022.2132060" rel="noopener" target="_blank">
+        Escuela &nearrow;
+       </a>
+       <a data-i18n="source_transparency" href="https://weavingvoices.org/report-whats-in-your-period-product/" rel="noopener" target="_blank">
+        Transparencia &nearrow;
+       </a>
+      </div>
+     </article>
+     <article class="angle-panel">
+      <p class="panel-kicker" data-i18n="angle_daily_kicker">
+       La log&iacute;stica
+      </p>
+      <h3 data-i18n="angle_daily_title">
+       El d&iacute;a a d&iacute;a
+      </h3>
+      <ul>
+       <li data-i18n="angle_daily_1">
+        Ba&ntilde;os sin agua, jab&oacute;n, privacidad o basureros seguros.
+       </li>
+       <li data-i18n="angle_daily_2">
+        Miedo al ruido del envoltorio, a mancharse o a pedir ayuda.
+       </li>
+       <li data-i18n="angle_daily_3">
+        Dolores incapacitantes sin permisos, cuidado ni atenci&oacute;n adecuada.
+       </li>
+      </ul>
+      <!--
+<div class="source-row">
+ <a data-i18n="source_policy" href="https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/improving-access-menstrual-health-girls-and-adolescents-peru" rel="noopener" target="_blank">
+  Perú / salud menstrual ↗
+ </a>
+ <a class="placeholder-link" data-i18n="source_placeholder" href="#" rel="noopener" target="_blank">
+  [PON EL LINK AQUÍ]
+ </a>
+</div>
 
-    <section class="page-section" id="propuesta">
-      <div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="proposal_eyebrow">Nuestra propuesta</p><h2><span data-i18n="proposal_title_main">No separamos el cuerpo, la economía y la educación.</span><span class="title-break" data-i18n="proposal_title_break">Los conectamos.</span></h2><p data-i18n="proposal_intro">Nuestro modelo integra educación, acceso, comunidad e incidencia para garantizar el derecho a una menstruación digna.</p></div>
-      <div class="solution-diagram reveal reveal-up"><article><span>01</span><h3 data-i18n="solution_one_title">Educación que traduce el cuerpo</h3><p data-i18n="solution_one_text">La información convierte miedo en lenguaje, síntomas en señales y vergüenza en conversación segura.</p></article><article><span>02</span><h3 data-i18n="solution_two_title">Productos sostenibles que duran</h3><p data-i18n="solution_two_text">Los productos reutilizables reducen la dependencia mensual de productos desechables y alivian costos a largo plazo.</p></article><article><span>03</span><h3 data-i18n="solution_three_title">Seguimiento que sostiene</h3><p data-i18n="solution_three_text">El acompañamiento posterior permite resolver dudas, cuidar el uso correcto y no abandonar a las beneficiarias.</p></article></div>
-      <div class="accordion-grid"><article class="accordion-card reveal reveal-left"><button class="accordion-trigger" aria-expanded="false"><span data-i18n="proposal_card_one_title">Educación menstrual</span><span class="accordion-icon">+</span></button><div class="accordion-panel"><p data-i18n="proposal_card_one_text">Ciclo menstrual, anatomía básica, dolor, higiene, señales de alerta, mitos, tabúes y cuidado de productos sostenibles.</p></div></article><article class="accordion-card reveal reveal-up"><button class="accordion-trigger" aria-expanded="false"><span data-i18n="proposal_card_two_title">Educación sexual</span><span class="accordion-icon">+</span></button><div class="accordion-panel"><p data-i18n="proposal_card_two_text">Pubertad, consentimiento, autonomía corporal, relaciones sanas, prevención, límites personales y proyecto de vida.</p></div></article><article class="accordion-card reveal reveal-right"><button class="accordion-trigger" aria-expanded="false"><span data-i18n="proposal_card_three_title">Educación financiera</span><span class="accordion-icon">+</span></button><div class="accordion-panel"><p data-i18n="proposal_card_three_text">Costos reales de menstruar, ahorro, presupuesto, compra informada, mantenimiento de productos y herramientas de autonomía.</p></div></article></div>
-      <div class="product-case reveal reveal-up"><p class="eyebrow" data-i18n="reusable_eyebrow">Por qué productos reutilizables</p><h3 data-i18n="reusable_title">La solución no es solo “dar algo”. Es dar herramientas que puedan sostenerse.</h3><img class="section-image" src="assets/figures/productos-reutilizables.png" alt="Productos menstruales reutilizables: copa menstrual, calzones menstruales, toallas reutilizables y compresa de semillas"><div class="reusable-grid"><article><h4 data-i18n="reusable_cost_title">Alivio económico</h4><p data-i18n="reusable_cost_text">Un kit durable puede reducir el gasto mensual repetido y liberar recursos familiares.</p></article><article><h4 data-i18n="reusable_waste_title">Menos residuos</h4><p data-i18n="reusable_waste_text">La reutilización reduce la dependencia de productos de un solo uso y su carga ambiental.</p></article><article><h4 data-i18n="reusable_body_title">Más alfabetización corporal</h4><p data-i18n="reusable_body_text">Aprender a usar y cuidar productos exige conocer el cuerpo, la higiene y las señales de alerta.</p></article></div><a class="inline-source" href="https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(19)30111-2/fulltext" target="_blank" rel="noopener" data-i18n="reusable_source">Leer revisión sobre copas menstruales ↗</a></div>
-    </section>
-
-    <section class="page-section" id="modelo"><div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="model_eyebrow">Modelo en acción</p><h2 data-i18n="model_title">Antes, durante y después. Porque una intervención real no termina cuando acaba el taller.</h2></div><img class="section-image reveal reveal-up" src="assets/figures/mapa-regiones.png" alt="Mapa de las tres regiones del proyecto MenstruAcción: Lima, Cajamarca y Amazonas"><div class="timeline"><article class="timeline-card reveal reveal-left"><span class="timeline-step">01</span><h3 data-i18n="model_before_title">Antes</h3><p data-i18n="model_before_text">Diagnóstico comunitario, estudio de desafíos menstruales, revisión de agua, hábitos, tabúes, bullying y necesidades específicas.</p></article><article class="timeline-card reveal reveal-up"><span class="timeline-step">02</span><h3 data-i18n="model_during_title">Durante</h3><p data-i18n="model_during_text">Talleres participativos, sesiones mixtas y diferenciadas, entrega de productos sostenibles, actividades prácticas y formación de embajadoras.</p></article><article class="timeline-card reveal reveal-right"><span class="timeline-step">03</span><h3 data-i18n="model_after_title">Después</h3><p data-i18n="model_after_text">Línea de WhatsApp, seguimiento a 3, 6 y 9 meses, encuestas, acompañamiento, soporte educativo y continuidad comunitaria.</p></article></div><div class="product-strip reveal reveal-up"><span data-i18n="product_cup">Copa menstrual</span><span data-i18n="product_underwear">Calzones menstruales</span><span data-i18n="product_pads">Toallas reutilizables</span><span data-i18n="product_compress">Compresa de semillas</span></div></section>
-
-    <section class="page-section" id="impacto-voces"><div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="impact_eyebrow">Impacto y voces</p><h2 data-i18n="impact_title">Esto no solo se midió. Esto se sintió.</h2><p data-i18n="impact_intro">En 2023, el piloto en Puente Piedra mostró que una intervención puede cambiar la forma en que las participantes entienden su cuerpo, su cuidado y su futuro.</p></div><div class="impact-layout"><div class="score-panel reveal reveal-left"><article class="score-row"><div><h3 data-i18n="score_usefulness">Utilidad del programa</h3><p>9.8/10</p></div><div class="score-bar"><span data-score="98"></span></div></article><article class="score-row"><div><h3 data-i18n="score_support">Acompañamiento</h3><p>9.7/10</p></div><div class="score-bar"><span data-score="97"></span></div></article><article class="score-row"><div><h3 data-i18n="score_products">Confianza en productos</h3><p>8.3/10</p></div><div class="score-bar"><span data-score="83"></span></div></article><article class="score-row"><div><h3 data-i18n="score_mindset">Cambio de mentalidad</h3><p>9.9/10</p></div><div class="score-bar"><span data-score="99"></span></div></article></div><div class="testimonial-card reveal reveal-right"><p class="quote-mark">“</p><p class="testimonial-text" id="testimonialText"></p><p class="testimonial-name" id="testimonialName"></p><div class="testimonial-controls"><button id="prevTestimonial" aria-label="Testimonio anterior">←</button><button id="nextTestimonial" aria-label="Siguiente testimonio">→</button></div></div></div></section>
-
-    <section class="page-section" id="quienes-somos"><div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="about_eyebrow">Quiénes somos</p><h2 data-i18n="about_title">33 jóvenes construyendo una respuesta desde adentro.</h2><p data-i18n="about_intro">Somos un equipo interdisciplinario organizado en cinco áreas para convertir investigación, logística, cuidado, comunicación y alianzas en acción territorial.</p></div><div class="team-summary reveal reveal-up"><div><span class="team-number">33</span><p data-i18n="team_people">personas voluntarias</p></div><div><span class="team-number">5</span><p data-i18n="team_areas">áreas de trabajo</p></div><div><span class="team-number">3</span><p data-i18n="team_regions">macroregiones del Perú</p></div></div><div class="team-area-grid"><article><h3 data-i18n="area_programs">Programas y Proyectos</h3><p data-i18n="area_programs_text">Diseño curricular, implementación escolar, facilitación y adaptación comunitaria.</p></article><article><h3 data-i18n="area_research">Investigación y Sostenibilidad</h3><p data-i18n="area_research_text">Diagnóstico, reportes, evidencia, evaluación, sostenibilidad ambiental y aprendizaje institucional.</p></article><article><h3 data-i18n="area_wellbeing">Comunidad y Bienestar</h3><p data-i18n="area_wellbeing_text">Seguimiento, cuidado, rutas de apoyo, espacios seguros y acompañamiento posterior.</p></article><article><h3 data-i18n="area_comms">Comunicaciones y Marketing</h3><p data-i18n="area_comms_text">Narrativa pública, campañas, redes, materiales visuales y movilización comunitaria.</p></article><article><h3 data-i18n="area_management">Gestión, Finanzas y Alianzas</h3><p data-i18n="area_management_text">Presupuesto, donaciones, procesos institucionales, articulación legal y alianzas estratégicas.</p></article></div><div class="people-placeholder reveal reveal-up"><h3 data-i18n="people_placeholder_title">Próximo paso: directorio del equipo</h3><p data-i18n="people_placeholder_text">Aquí podremos añadir tarjetas por persona con foto, nombre, área, región y una frase breve. Por ahora queda listo el espacio para crecer sin saturar la página.</p></div></section>
-
-    <section class="page-section" id="recursos"><div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="resources_eyebrow">Centro de recursos</p><h2 data-i18n="resources_title">Notas, reportes y materiales para pensar la menstruación desde evidencia, territorio y sostenibilidad.</h2><p data-i18n="resources_intro">Este será el espacio para publicaciones breves del equipo de Investigación y Sostenibilidad, guías para comunidades, reportes de campo y materiales educativos.</p></div><div class="resource-feature reveal reveal-up"><p class="eyebrow" data-i18n="resource_feature_tag">Formato sugerido</p><h3 data-i18n="resource_feature_title">Cada entrada debe tener autora, fecha, tema, fuente principal y una idea accionable.</h3><p data-i18n="resource_feature_text">Así el centro no se vuelve solo un blog, sino una biblioteca viva para colegios, donantes, voluntarias y aliadas.</p></div><div class="notes-grid"><article><span class="note-tag" data-i18n="note_tag_research">Investigación</span><h3 data-i18n="note_one_title">Metales pesados en productos menstruales: qué sabemos y qué falta investigar</h3><p data-i18n="note_one_author">Por: Equipo de Investigación y Sostenibilidad</p><p data-i18n="note_one_text">Una nota para traducir evidencia científica en preguntas claras para comunidades, colegios y donantes.</p><a href="#" class="placeholder-link" data-i18n="note_coming">Próximamente</a></article><article><span class="note-tag" data-i18n="note_tag_sustainability">Sostenibilidad</span><h3 data-i18n="note_two_title">¿Por qué no basta con donar productos?</h3><p data-i18n="note_two_author">Por: Nombre de autora / Área</p><p data-i18n="note_two_text">Un análisis sobre acceso, educación, seguimiento y el riesgo de intervenciones de corto plazo.</p><a href="#" class="placeholder-link" data-i18n="note_coming">Próximamente</a></article><article><span class="note-tag" data-i18n="note_tag_territory">Territorio</span><h3 data-i18n="note_three_title">Menstruación, agua y escuela: lo que cambia entre Costa, Andes y Amazonía</h3><p data-i18n="note_three_author">Por: Nombre de autora / Área</p><p data-i18n="note_three_text">Una entrada sobre cómo el territorio cambia las posibilidades reales de una menstruación digna.</p><a href="#" class="placeholder-link" data-i18n="note_coming">Próximamente</a></article></div></section>
-
-    <section class="page-section" id="aliados"><div class="section-heading reveal reveal-up"><p class="eyebrow" data-i18n="allies_eyebrow">Aliados y patrocinadores</p><h2 data-i18n="allies_title">Una red que convierte recursos en dignidad.</h2><p data-i18n="allies_intro">Gracias a esta red, MenstruAcción puede llegar a tres colegios en Lima, Cajamarca y Amazonas con respaldo, productos y conocimiento.</p></div><div class="allies-grid"><article><h3>Projects for Peace</h3><p data-i18n="ally_pfp">Patrocinador principal del proyecto 2026.</p></article><article><h3>Lake Forest College</h3><p data-i18n="ally_lfc">Institución universitaria que respaldó la postulación.</p></article><article><h3>College of the Atlantic</h3><p data-i18n="ally_coa">Institución vinculada al liderazgo y desarrollo original de MenstruAcción.</p></article><article><h3>Vera Ciclos</h3><p data-i18n="ally_vera">Aliado local para productos menstruales sostenibles y culturalmente pertinentes.</p></article></div></section>
-
-    <section class="page-section" id="sumate"><div class="support-panel reveal reveal-up"><p class="eyebrow" data-i18n="support_eyebrow">Súmate</p><h2 data-i18n="support_title">Menstruar no debe ser un obstáculo.</h2><p data-i18n="support_text">Ayúdanos a escalar este proyecto a más regiones del Perú y cambiar las vidas de más niñas y jóvenes.</p><div class="support-actions"><a class="primary-button" href="https://gofund.me/f9b3c36c0" target="_blank" rel="noopener" data-i18n="support_donate">Donar</a><a class="secondary-button" href="mailto:menstruaccion.peru@gmail.com" data-i18n="support_contact">Contactar</a></div></div></section>
+-->
+     </article>
+    </div>
+   </section>
+   <section class="page-section" id="propuesta">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="proposal_eyebrow">
+      Nuestra propuesta
+     </p>
+     <h2>
+      <span data-i18n="proposal_title_main">
+       No separamos el cuerpo, la econom&iacute;a y la educaci&oacute;n.
+      </span>
+      <span class="title-break" data-i18n="proposal_title_break">
+       Los conectamos.
+      </span>
+     </h2>
+     <p data-i18n="proposal_intro">
+      Nuestro modelo integra educaci&oacute;n, acceso, comunidad e incidencia para garantizar el derecho a una menstruaci&oacute;n digna.
+     </p>
+    </div>
+    <div class="solution-diagram reveal reveal-up">
+     <article>
+      <span>
+       01
+      </span>
+      <h3 data-i18n="solution_one_title">
+       Educaci&oacute;n que traduce el cuerpo
+      </h3>
+      <p data-i18n="solution_one_text">
+       La informaci&oacute;n convierte miedo en lenguaje, s&iacute;ntomas en se&ntilde;ales y verg&uuml;enza en conversaci&oacute;n segura.
+      </p>
+     </article>
+     <article>
+      <span>
+       02
+      </span>
+      <h3 data-i18n="solution_two_title">
+       Productos sostenibles que duran
+      </h3>
+      <p data-i18n="solution_two_text">
+       Los productos reutilizables reducen la dependencia mensual de productos desechables y alivian costos a largo plazo.
+      </p>
+     </article>
+     <article>
+      <span>
+       03
+      </span>
+      <h3 data-i18n="solution_three_title">
+       Seguimiento que sostiene
+      </h3>
+      <p data-i18n="solution_three_text">
+       El acompa&ntilde;amiento posterior permite resolver dudas, cuidar el uso correcto y no abandonar a las beneficiarias.
+      </p>
+     </article>
+    </div>
+    <div class="accordion-grid">
+     <article class="accordion-card reveal reveal-left">
+      <button aria-expanded="false" class="accordion-trigger">
+       <span data-i18n="proposal_card_one_title">
+        Educaci&oacute;n menstrual
+       </span>
+       <span class="accordion-icon">
+        +
+       </span>
+      </button>
+      <div class="accordion-panel">
+       <p data-i18n="proposal_card_one_text">
+        Ciclo menstrual, anatom&iacute;a b&aacute;sica, dolor, higiene, se&ntilde;ales de alerta, mitos, tab&uacute;es y cuidado de productos sostenibles.
+       </p>
+      </div>
+     </article>
+     <article class="accordion-card reveal reveal-up">
+      <button aria-expanded="false" class="accordion-trigger">
+       <span data-i18n="proposal_card_two_title">
+        Educaci&oacute;n sexual
+       </span>
+       <span class="accordion-icon">
+        +
+       </span>
+      </button>
+      <div class="accordion-panel">
+       <p data-i18n="proposal_card_two_text">
+        Pubertad, consentimiento, autonom&iacute;a corporal, relaciones sanas, prevenci&oacute;n, l&iacute;mites personales y proyecto de vida.
+       </p>
+      </div>
+     </article>
+     <article class="accordion-card reveal reveal-right">
+      <button aria-expanded="false" class="accordion-trigger">
+       <span data-i18n="proposal_card_three_title">
+        Educaci&oacute;n financiera
+       </span>
+       <span class="accordion-icon">
+        +
+       </span>
+      </button>
+      <div class="accordion-panel">
+       <p data-i18n="proposal_card_three_text">
+        Costos reales de menstruar, ahorro, presupuesto, compra informada, mantenimiento de productos y herramientas de autonom&iacute;a.
+       </p>
+      </div>
+     </article>
+    </div>
+    <div class="product-case reveal reveal-up">
+     <p class="eyebrow" data-i18n="reusable_eyebrow">
+      Por qu&eacute; productos reutilizables
+     </p>
+     <h3 data-i18n="reusable_title">
+      La soluci&oacute;n no es solo &ldquo;dar algo&rdquo;. Es dar herramientas que puedan sostenerse.
+     </h3>
+     <div class="reusable-grid">
+      <article>
+       <h4 data-i18n="reusable_cost_title">
+        Alivio econ&oacute;mico
+       </h4>
+       <p data-i18n="reusable_cost_text">
+        Un kit durable puede reducir el gasto mensual repetido y liberar recursos familiares.
+       </p>
+      </article>
+      <article>
+       <h4 data-i18n="reusable_waste_title">
+        Menos residuos
+       </h4>
+       <p data-i18n="reusable_waste_text">
+        La reutilizaci&oacute;n reduce la dependencia de productos de un solo uso y su carga ambiental.
+       </p>
+      </article>
+      <article>
+       <h4 data-i18n="reusable_body_title">
+        M&aacute;s alfabetizaci&oacute;n corporal
+       </h4>
+       <p data-i18n="reusable_body_text">
+        Aprender a usar y cuidar productos exige conocer el cuerpo, la higiene y las se&ntilde;ales de alerta.
+       </p>
+      </article>
+     </div>
+     <a class="inline-source" data-i18n="reusable_source" href="https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(19)30111-2/fulltext" rel="noopener" target="_blank">
+      Leer revisi&oacute;n sobre copas menstruales &nearrow;
+     </a>
+    </div>
+   </section>
+   <section class="page-section" id="modelo">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="model_eyebrow">
+      Modelo en acci&oacute;n
+     </p>
+     <h2 data-i18n="model_title">
+      Antes, durante y despu&eacute;s. Porque una intervenci&oacute;n real no termina cuando acaba el taller.
+     </h2>
+    </div>
+    <div class="timeline">
+     <article class="timeline-card reveal reveal-left">
+      <span class="timeline-step">
+       01
+      </span>
+      <h3 data-i18n="model_before_title">
+       Antes
+      </h3>
+      <p data-i18n="model_before_text">
+       Diagn&oacute;stico comunitario, estudio de desaf&iacute;os menstruales, revisi&oacute;n de agua, h&aacute;bitos, tab&uacute;es, bullying y necesidades espec&iacute;ficas.
+      </p>
+     </article>
+     <article class="timeline-card reveal reveal-up">
+      <span class="timeline-step">
+       02
+      </span>
+      <h3 data-i18n="model_during_title">
+       Durante
+      </h3>
+      <p data-i18n="model_during_text">
+       Talleres participativos, sesiones mixtas y diferenciadas, entrega de productos sostenibles, actividades pr&aacute;cticas y formaci&oacute;n de embajadoras.
+      </p>
+     </article>
+     <article class="timeline-card reveal reveal-right">
+      <span class="timeline-step">
+       03
+      </span>
+      <h3 data-i18n="model_after_title">
+       Despu&eacute;s
+      </h3>
+      <p data-i18n="model_after_text">
+       L&iacute;nea de WhatsApp, seguimiento a 3, 6 y 9 meses, encuestas, acompa&ntilde;amiento, soporte educativo y continuidad comunitaria.
+      </p>
+     </article>
+    </div>
+    <div class="product-strip reveal reveal-up">
+     <span data-i18n="product_cup">
+      Copa menstrual
+     </span>
+     <span data-i18n="product_underwear">
+      Calzones menstruales
+     </span>
+     <span data-i18n="product_pads">
+      Toallas reutilizables
+     </span>
+     <span data-i18n="product_compress">
+      Compresa de semillas
+     </span>
+    </div>
+   </section>
+   <section class="page-section" id="impacto-voces">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="impact_eyebrow">
+      Impacto y voces
+     </p>
+     <h2 data-i18n="impact_title">
+      Esto no solo se midi&oacute;. Esto se sinti&oacute;.
+     </h2>
+     <p data-i18n="impact_intro">
+      En 2023, el piloto en Puente Piedra mostr&oacute; que una intervenci&oacute;n puede cambiar la forma en que las participantes entienden su cuerpo, su cuidado y su futuro.
+     </p>
+    </div>
+    <div class="impact-layout">
+     <div class="score-panel reveal reveal-left">
+      <article class="score-row">
+       <div>
+        <h3 data-i18n="score_usefulness">
+         Utilidad del programa
+        </h3>
+        <p>
+         9.8/10
+        </p>
+       </div>
+       <div class="score-bar">
+        <span data-score="98">
+        </span>
+       </div>
+      </article>
+      <article class="score-row">
+       <div>
+        <h3 data-i18n="score_support">
+         Acompa&ntilde;amiento
+        </h3>
+        <p>
+         9.7/10
+        </p>
+       </div>
+       <div class="score-bar">
+        <span data-score="97">
+        </span>
+       </div>
+      </article>
+      <article class="score-row">
+       <div>
+        <h3 data-i18n="score_products">
+         Confianza en productos
+        </h3>
+        <p>
+         8.3/10
+        </p>
+       </div>
+       <div class="score-bar">
+        <span data-score="83">
+        </span>
+       </div>
+      </article>
+      <article class="score-row">
+       <div>
+        <h3 data-i18n="score_mindset">
+         Cambio de mentalidad
+        </h3>
+        <p>
+         9.9/10
+        </p>
+       </div>
+       <div class="score-bar">
+        <span data-score="99">
+        </span>
+       </div>
+      </article>
+     </div>
+     <div class="testimonial-card reveal reveal-right">
+      <p class="quote-mark">
+       &ldquo;
+      </p>
+      <p class="testimonial-text" id="testimonialText">
+      </p>
+      <p class="testimonial-name" id="testimonialName">
+      </p>
+      <div class="testimonial-controls">
+       <button aria-label="Testimonio anterior" id="prevTestimonial">
+        &larr;
+       </button>
+       <button aria-label="Siguiente testimonio" id="nextTestimonial">
+        &rarr;
+       </button>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="page-section" id="quienes-somos">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="about_eyebrow">
+      Qui&eacute;nes somos
+     </p>
+     <h2 data-i18n="about_title">
+      33 j&oacute;venes construyendo una respuesta desde adentro.
+     </h2>
+     <p data-i18n="about_intro">
+      Somos un equipo interdisciplinario organizado en cinco &aacute;reas para convertir investigaci&oacute;n, log&iacute;stica, cuidado, comunicaci&oacute;n y alianzas en acci&oacute;n territorial.
+     </p>
+    </div>
+    <div class="team-summary reveal reveal-up">
+     <div>
+      <span class="team-number">
+       33
+      </span>
+      <p data-i18n="team_people">
+       personas voluntarias
+      </p>
+     </div>
+     <div>
+      <span class="team-number">
+       5
+      </span>
+      <p data-i18n="team_areas">
+       &aacute;reas de trabajo
+      </p>
+     </div>
+     <div>
+      <span class="team-number">
+       3
+      </span>
+      <p data-i18n="team_regions">
+       macroregiones del Per&uacute;
+      </p>
+     </div>
+    </div>
+    <div class="team-area-grid">
+     <article>
+      <h3 data-i18n="area_programs">
+       Programas y Proyectos
+      </h3>
+      <p data-i18n="area_programs_text">
+       Dise&ntilde;o curricular, implementaci&oacute;n escolar, facilitaci&oacute;n y adaptaci&oacute;n comunitaria.
+      </p>
+     </article>
+     <article>
+      <h3 data-i18n="area_research">
+       Investigaci&oacute;n y Sostenibilidad
+      </h3>
+      <p data-i18n="area_research_text">
+       Diagn&oacute;stico, reportes, evidencia, evaluaci&oacute;n, sostenibilidad ambiental y aprendizaje institucional.
+      </p>
+     </article>
+     <article>
+      <h3 data-i18n="area_wellbeing">
+       Comunidad y Bienestar
+      </h3>
+      <p data-i18n="area_wellbeing_text">
+       Seguimiento, cuidado, rutas de apoyo, espacios seguros y acompa&ntilde;amiento posterior.
+      </p>
+     </article>
+     <article>
+      <h3 data-i18n="area_comms">
+       Comunicaciones y Marketing
+      </h3>
+      <p data-i18n="area_comms_text">
+       Narrativa p&uacute;blica, campa&ntilde;as, redes, materiales visuales y movilizaci&oacute;n comunitaria.
+      </p>
+     </article>
+     <article>
+      <h3 data-i18n="area_management">
+       Gesti&oacute;n, Finanzas y Alianzas
+      </h3>
+      <p data-i18n="area_management_text">
+       Presupuesto, donaciones, procesos institucionales, articulaci&oacute;n legal y alianzas estrat&eacute;gicas.
+      </p>
+     </article>
+    </div>
+    <div class="people-placeholder reveal reveal-up">
+     <h3 data-i18n="people_placeholder_title">
+      Pr&oacute;ximo paso: directorio del equipo
+     </h3>
+     <p data-i18n="people_placeholder_text">
+      Aqu&iacute; podremos a&ntilde;adir tarjetas por persona con foto, nombre, &aacute;rea, regi&oacute;n y una frase breve. Por ahora queda listo el espacio para crecer sin saturar la p&aacute;gina.
+     </p>
+    </div>
+   </section>
+   <section class="page-section" id="recursos">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="resources_eyebrow">
+      Centro de recursos
+     </p>
+     <h2 data-i18n="resources_title">
+      Notas, reportes y materiales para pensar la menstruaci&oacute;n desde evidencia, territorio y sostenibilidad.
+     </h2>
+     <p data-i18n="resources_intro">
+      Este ser&aacute; el espacio para publicaciones breves del equipo de Investigaci&oacute;n y Sostenibilidad, gu&iacute;as para comunidades, reportes de campo y materiales educativos.
+     </p>
+    </div>
+    <div class="resource-feature reveal reveal-up">
+     <p class="eyebrow" data-i18n="resource_feature_tag">
+      Formato sugerido
+     </p>
+     <h3 data-i18n="resource_feature_title">
+      Cada entrada debe tener autora, fecha, tema, fuente principal y una idea accionable.
+     </h3>
+     <p data-i18n="resource_feature_text">
+      As&iacute; el centro no se vuelve solo un blog, sino una biblioteca viva para colegios, donantes, voluntarias y aliadas.
+     </p>
+    </div>
+    <div class="notes-grid">
+     <article>
+      <span class="note-tag" data-i18n="note_tag_research">
+       Investigaci&oacute;n
+      </span>
+      <h3 data-i18n="note_one_title">
+       Metales pesados en productos menstruales: qu&eacute; sabemos y qu&eacute; falta investigar
+      </h3>
+      <p data-i18n="note_one_author">
+       Por: Equipo de Investigaci&oacute;n y Sostenibilidad
+      </p>
+      <p data-i18n="note_one_text">
+       Una nota para traducir evidencia cient&iacute;fica en preguntas claras para comunidades, colegios y donantes.
+      </p>
+      <a class="placeholder-link" data-i18n="note_coming" href="#">
+       Pr&oacute;ximamente
+      </a>
+     </article>
+     <article>
+      <span class="note-tag" data-i18n="note_tag_sustainability">
+       Sostenibilidad
+      </span>
+      <h3 data-i18n="note_two_title">
+       &iquest;Por qu&eacute; no basta con donar productos?
+      </h3>
+      <p data-i18n="note_two_author">
+       Por: Nombre de autora / &Aacute;rea
+      </p>
+      <p data-i18n="note_two_text">
+       Un an&aacute;lisis sobre acceso, educaci&oacute;n, seguimiento y el riesgo de intervenciones de corto plazo.
+      </p>
+      <a class="placeholder-link" data-i18n="note_coming" href="#">
+       Pr&oacute;ximamente
+      </a>
+     </article>
+     <article>
+      <span class="note-tag" data-i18n="note_tag_territory">
+       Territorio
+      </span>
+      <h3 data-i18n="note_three_title">
+       Menstruaci&oacute;n, agua y escuela: lo que cambia entre Costa, Andes y Amazon&iacute;a
+      </h3>
+      <p data-i18n="note_three_author">
+       Por: Nombre de autora / &Aacute;rea
+      </p>
+      <p data-i18n="note_three_text">
+       Una entrada sobre c&oacute;mo el territorio cambia las posibilidades reales de una menstruaci&oacute;n digna.
+      </p>
+      <a class="placeholder-link" data-i18n="note_coming" href="#">
+       Pr&oacute;ximamente
+      </a>
+     </article>
+    </div>
+   </section>
+   <section class="page-section" id="aliados">
+    <div class="section-heading reveal reveal-up">
+     <p class="eyebrow" data-i18n="allies_eyebrow">
+      Aliados y patrocinadores
+     </p>
+     <h2 data-i18n="allies_title">
+      Una red que convierte recursos en dignidad.
+     </h2>
+     <p data-i18n="allies_intro">
+      Gracias a esta red, MenstruAcci&oacute;n puede llegar a tres colegios en Lima, Cajamarca y Amazonas con respaldo, productos y conocimiento.
+     </p>
+    </div>
+    <div class="allies-grid">
+     <article>
+      <h3>
+       Projects for Peace
+      </h3>
+      <p data-i18n="ally_pfp">
+       Patrocinador principal del proyecto 2026.
+      </p>
+     </article>
+     <article>
+      <h3>
+       Lake Forest College
+      </h3>
+      <p data-i18n="ally_lfc">
+       Instituci&oacute;n universitaria que respald&oacute; la postulaci&oacute;n.
+      </p>
+     </article>
+     <article>
+      <h3>
+       College of the Atlantic
+      </h3>
+      <p data-i18n="ally_coa">
+       Instituci&oacute;n vinculada al liderazgo y desarrollo original de MenstruAcci&oacute;n.
+      </p>
+     </article>
+     <article>
+      <h3>
+       Vera Ciclos
+      </h3>
+      <p data-i18n="ally_vera">
+       Aliado local para productos menstruales sostenibles y culturalmente pertinentes.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="page-section" id="sumate">
+    <div class="support-panel reveal reveal-up">
+     <p class="eyebrow" data-i18n="support_eyebrow">
+      S&uacute;mate
+     </p>
+     <h2 data-i18n="support_title">
+      Menstruar no debe ser un obst&aacute;culo.
+     </h2>
+     <p data-i18n="support_text">
+      Ay&uacute;danos a escalar este proyecto a m&aacute;s regiones del Per&uacute; y cambiar las vidas de m&aacute;s ni&ntilde;as y j&oacute;venes.
+     </p>
+     <div class="support-actions">
+      <a class="primary-button" data-i18n="support_donate" href="https://gofund.me/f9b3c36c0" rel="noopener" target="_blank">
+       Donar
+      </a>
+      <a class="secondary-button" data-i18n="support_contact" href="mailto:menstruaccion.peru@gmail.com">
+       Contactar
+      </a>
+     </div>
+    </div>
+   </section>
   </main>
-  <footer class="site-footer"><p>MenstruAcción®</p><p><a href="mailto:menstruaccion.peru@gmail.com">menstruaccion.peru@gmail.com</a></p></footer>
-</body>
+  <footer class="site-footer">
+   <p>
+    MenstruAcci&oacute;n &mdash;
+    <span data-i18n="footer_tagline">
+     Dignidad para cada ciclo.
+    </span>
+   </p>
+   <p>
+    <a href="mailto:menstruaccion.peru@gmail.com">
+     menstruaccion.peru@gmail.com
+    </a>
+   </p>
+  </footer>
+ </body>
 </html>
