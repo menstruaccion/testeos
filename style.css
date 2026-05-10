@@ -867,15 +867,15 @@ h4 {
   display: grid;
   place-items: center;
   width: 100%;
-  height: 230px;
-  margin-bottom: 1.4rem;
+  height: 210px;
+  margin-bottom: 2.6rem;
   overflow: hidden;
   text-decoration: none;
 }
 
 .allies-grid article img {
-  width: 100%;
-  height: 100%;
+  width: 82%;
+  height: 82%;
   object-fit: contain;
   display: block;
   transition: var(--transition);
