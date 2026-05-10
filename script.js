@@ -398,6 +398,8 @@ function activateTab(tabId){
   localStorage.setItem("menstruaccion-language",
   lang);
   document.documentElement.lang=lang;
+  document.body.classList.toggle("lang-en", lang === "en");
+  document.body.classList.toggle("lang-es", lang === "es");
   document.querySelectorAll("[data-i18n]").forEach(el=>{
     const k=el.dataset.i18n;
     if(translations[
