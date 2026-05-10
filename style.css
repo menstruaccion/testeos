@@ -180,6 +180,11 @@ a {
   overflow: hidden;
   display: none;
   align-items: center;
+  background:
+    linear-gradient(rgba(255, 239, 227, 0.78), rgba(255, 239, 227, 0.78)),
+    url("assets/banner-desktop.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-section.active {
@@ -948,7 +953,15 @@ h4 {
   .site-header {
     grid-template-columns: auto auto auto;
   }
-
+   
+  .hero-section {
+     background:
+       linear-gradient(rgba(255, 239, 227, 0.82), rgba(255, 239, 227, 0.82)),
+       url("assets/banner-mobile.jpg");
+     background-size: cover;
+     background-position: center;
+  }
+   
   .brand-logo {
     width: 155px;
   }
