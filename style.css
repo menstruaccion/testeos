@@ -864,21 +864,18 @@ h4 {
 }
 
 .allies-grid article a {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  height: 210px;
-  margin-bottom: 2.6rem;
-  overflow: hidden;
-  text-decoration: none;
+  height: auto;
+  min-height: 220px;
+  margin-bottom: 1.8rem;
+  overflow: visible;
 }
 
 .allies-grid article img {
-  width: 89%;
-  height: 89%;
+  width: 85%;
+  max-width: 320px;
+  height: auto;
+  max-height: 220px;
   object-fit: contain;
-  display: block;
-  transition: var(--transition);
 }
 
 .allies-grid article a:hover img {
