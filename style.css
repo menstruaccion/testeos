@@ -694,6 +694,40 @@ h4 {
 /* IMPACT + TESTIMONIALS */
 /* ============================= */
 
+#impacto-voces {
+  position: relative;
+  overflow: hidden;
+}
+
+#impacto-voces > *:not(.impact-bg-video) {
+  position: relative;
+  z-index: 2;
+}
+
+.impact-bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.16;
+  filter: blur(8px) saturate(0.85);
+  transform: scale(1.04);
+  z-index: 0;
+  pointer-events: none;
+}
+
+#impacto-voces::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255, 239, 227, 0.78), rgba(255, 239, 227, 0.88)),
+    radial-gradient(circle at center, rgba(146, 15, 42, 0.18), transparent 45%);
+  z-index: 1;
+  pointer-events: none;
+}
+
 .impact-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
