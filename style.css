@@ -985,7 +985,11 @@ h4 {
   .site-header {
     grid-template-columns: auto auto auto;
   }
-   
+  
+  .allies-grid {
+    grid-template-columns: 1fr;
+  }
+  
   .hero-section {
      background:
        linear-gradient(rgba(255, 239, 227, 0.40), rgba(255, 239, 227, 0.40)),
