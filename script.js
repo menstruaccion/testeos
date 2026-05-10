@@ -164,7 +164,6 @@ const translations={
     support_text:"Ayúdanos a escalar este proyecto a más regiones del Perú y cambiar las vidas de más niñas y jóvenes.",
     support_donate:"Donar",
     support_contact:"Contactar",
-    footer_tagline:"Dignidad para cada ciclo."
   },
   en:{
     nav_home:"Home",
@@ -327,7 +326,6 @@ const translations={
     support_text:"Help us scale this project to more regions of Peru and change the lives of more girls and young people.",
     support_donate:"Donate",
     support_contact:"Contact",
-    footer_tagline:"Dignity for every cycle."
   }
 };
 const testimonials={
