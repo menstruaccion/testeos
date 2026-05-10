@@ -969,6 +969,56 @@ h4 {
 }
 
 /* ============================= */
+/* ENGLISH-ONLY LETTER */
+/* ============================= */
+
+.english-only {
+  display: none;
+}
+
+body.lang-en .english-only {
+  display: block;
+}
+
+.letter-panel {
+  max-width: 950px;
+  margin: 2rem auto 0;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 249, 244, 0.92);
+  box-shadow: var(--shadow);
+}
+
+.letter-panel h2 {
+  font-size: clamp(2rem, 4vw, 4rem);
+}
+
+.letter-details {
+  margin-top: 1.5rem;
+}
+
+.letter-details summary {
+  cursor: pointer;
+  display: inline-flex;
+  padding: 0.85rem 1.2rem;
+  border-radius: 999px;
+  color: white;
+  background: var(--red-deep);
+  font-weight: 800;
+}
+
+.letter-body {
+  margin-top: 1.5rem;
+}
+
+.letter-body p {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* ============================= */
 /* RESPONSIVE DESIGN */
 /* ============================= */
 
