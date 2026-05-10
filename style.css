@@ -166,7 +166,7 @@ a {
   display: none;
   align-items: center;
   background:
-    linear-gradient(rgba(255, 239, 227, 0.78), rgba(255, 239, 227, 0.78)),
+    linear-gradient(rgba(255, 239, 227, 0.40), rgba(255, 239, 227, 0.40)),
     url("assets/banner-desktop.jpg");
   background-size: cover;
   background-position: center;
@@ -954,7 +954,7 @@ h4 {
    
   .hero-section {
      background:
-       linear-gradient(rgba(255, 239, 227, 0.82), rgba(255, 239, 227, 0.82)),
+       linear-gradient(rgba(255, 239, 227, 0.40), rgba(255, 239, 227, 0.40)),
        url("assets/banner-mobile.jpg");
      background-size: cover;
      background-position: center;
