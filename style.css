@@ -1055,6 +1055,27 @@ body.lang-en .english-only {
   line-height: 1.75;
 }
 
+.footer-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 0.6rem;
+  color: var(--red-deep);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.footer-instagram img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer-instagram:hover {
+  color: var(--red-bright);
+}
+
 /* ============================= */
 /* RESPONSIVE DESIGN */
 /* ============================= */
